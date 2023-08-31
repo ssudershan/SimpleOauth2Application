@@ -1,0 +1,20 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: XYZ
+            clientSecret: XYZ
+          google:
+            clientId: XYZ
+            clientSecret: XYZ
+          azure:
+            clientName: azure
+            clientId: XYZ
+            clientSecret: XYZ
+            scope: openid, email
+            provider: azure
+        provider:
+          azure:
+            issuerUri: https://login.microsoftonline.com/c0dd35fa-d47a-4aae-84bb-26aa4ab38a5e/v2.0
