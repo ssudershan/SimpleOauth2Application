@@ -17,4 +17,4 @@ spring:
             provider: azure
         provider:
           azure:
-            issuerUri: https://login.microsoftonline.com/c0dd35fa-d47a-4aae-84bb-26aa4ab38a5e/v2.0
+            issuerUri: XYX
